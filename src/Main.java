@@ -20,7 +20,7 @@ public class Main {
 
 
         Map.Entry<Integer, Integer> maxPovtor = sizeToFreq.entrySet().stream().max(Map.Entry.comparingByValue()).get();
-        System.out.println("Самое частое количество повторений = " + maxPovtor.getKey() + " (встретилось " + maxPovtor.getValue() + " раз");
+        System.out.println("Самое частое количество повторений = " + maxPovtor.getKey() + " ( встретилось " + maxPovtor.getValue() + " раз )");
 
         System.out.println("Другие размеры:");
         sizeToFreq.entrySet().stream().sorted(Map.Entry.comparingByValue())
